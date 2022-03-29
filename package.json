@@ -1,6 +1,6 @@
 {
   "name": "npm-testingererer-2",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -9,13 +9,15 @@
     "dist",
     "README.md"
   ],
-  "dependencies": {
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0"
+    "react-scripts": "5.0.0",
+    "@babel/cli": "^7.17.6",
+    "@babel/preset-react": "^7.16.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,9 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/preset-react": "^7.16.7"
   }
 }

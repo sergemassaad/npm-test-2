@@ -4,7 +4,7 @@
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "typings": "dist/declaration.ts",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist",
     "README.md"
